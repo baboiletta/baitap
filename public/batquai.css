@@ -1,0 +1,45 @@
+*{}
+
+.trai {
+    width: 120px;
+    height: 60px;
+    /* margin: auto; */
+    background: red;
+    border: solid;
+    border-width: 2px 2px 62px 2px;
+    border-radius: 50%;
+    animation: xoay 2s 1s linear infinite;
+}
+
+.trai:before {
+    width: 20px;
+    height: 20px;
+    content: "";
+    background: green;
+    position: absolute;
+    border: 20px solid;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+}
+@-webkit-keyframes xoay{
+    0%{
+        transform: rotate(0deg);
+         
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.trai:after {
+    width: 20px;
+    height: 20px;
+    content: "";
+    background: green;
+    position: absolute;
+    border: 20px solid red;
+    border-radius: 50%;
+    top: 50%;
+    left: 0%;
+}

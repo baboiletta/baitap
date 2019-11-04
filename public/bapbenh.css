@@ -1,0 +1,55 @@
+*{}
+
+.bapbenh {
+    width: 0;
+    height: 0;
+    border-bottom: 40px solid;
+    border-left: 200px solid gray;
+    margin: 150px 171px;
+    transform: rotate(30deg);
+    animation: lac 5s linear infinite;
+    transition: 4s;
+}
+
+.roll {
+    width: 23px;
+    height: 23px;
+    content: "";
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-top: 4%;
+    border-radius: 50%;
+    animation: lan 5s  linear infinite;
+    transform: translate(50px);
+    transition: 4s;
+}
+@-webkit-keyframes lan {
+    0%{
+        transform: translate(-50px);
+    }
+    25%{
+        transform: translateY(15px);
+    }
+    50%{
+        transform: translateX(-15px);
+    }
+    100%{
+        transform: translateX(-85px);
+    }
+    
+}
+@-webkit-keyframes lac {
+    0%{
+        transform: rotate(30deg);
+    }
+    50%{
+        transform: rotate(-60deg);
+    }
+   
+    100%{
+        transform: rotate(30deg);
+    }
+   
+}
