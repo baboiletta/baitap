@@ -1,8 +1,8 @@
 *{}
 
-.s:before {content: "";width: 10px;height: 50px;background: white;position: absolute;margin-left: -5px;}
+.s:before {content: "";width: 2px;height: 50px;background: white;position: absolute;margin-left: 0px;}
 
-.s:after {content: "";width: 50px;height: 10px;background: white;position: absolute;margin-top: 20px;margin-left: -25px;}
+.s:after {content: "";width: 50px;height: 2px;background: white;position: absolute;margin-top: 25px;margin-left: -25px;}
 
 .bxe .s {
     position: absolute;
@@ -15,23 +15,24 @@
     margin-bottom: -25px;
     margin-left: 25px;
     transition: 2s;
-   
+    border: 5px solid white;
 }
 
-.s:hover ,._1 {
-    animation: quay 10s ease-in-out infinite;
+.bxe:hover ._1 {
+    animation: quay 5s ease-in-out infinite;
     
 }
-.s:hover, ._2 {
-    animation: quay 10s ease-in-out infinite;
+.bxe:hover ._2 {
+    animation: quay 5s ease-in-out infinite;
     
 }
 @-webkit-keyframes quay {
  0%{
-     transform: rotate(0);
+     transform: rotate(0) ;
+     
  }
  100%{
-     transform: rotate(3600deg);
+     transform: rotate(360deg) ;
  }
 }
 .s._2 {
