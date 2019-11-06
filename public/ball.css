@@ -1,0 +1,21 @@
+*{}
+
+.ball {
+    width: 80px;
+    height: 140px;
+    background: orange;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin: 400px;
+    animation: vo 2s 3s linear infinite;
+ 
+}
+
+@-webkit-keyframes vo{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotateZ(-360deg);
+    }
+}

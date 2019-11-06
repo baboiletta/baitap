@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class balls extends Component {
+class Balls extends Component {
     render() {
         return (
             <div className="ball">
@@ -10,4 +10,4 @@ class balls extends Component {
     }
 }
 
-export default balls;
+export default Balls;

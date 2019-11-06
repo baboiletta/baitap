@@ -4,7 +4,7 @@ class Batquai extends Component {
     render() {
         return (
             <div className="trai">
-                
+                <div className="trong"></div>
             </div>
         );
     }

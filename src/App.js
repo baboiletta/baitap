@@ -1,16 +1,21 @@
 import React from 'react';
 import './App.css';
-import Cars from './components/car';
-import Batquai from './components/batquai';
-import Bapbenh from './components/bapbenh';
+
 import Music from './components/music';
+
+import Balls from './components/balls';
+import Bapbenh from './components/bapbenh';
+import Batquai from './components/batquai';
+import Cars from './components/car';
 
 function App() {
   return (
     <div className="App">
-     {/* <Cars></Cars> */}
-     {/* <Batquai></Batquai> */}
-     <Music></Music>
+      <Bapbenh></Bapbenh>
+      <Balls></Balls>
+      <Batquai></Batquai>
+       <Music></Music>
+       <Cars></Cars>
     </div>
   );
 }
