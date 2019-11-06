@@ -62,15 +62,6 @@
     top: 50%;
     left: 50%;
 }
-@-webkit-keyframes xoay{
-    0%{
-        transform: rotate(0deg);
-         
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
 
 .trai:after {
     width: 20px;
@@ -82,4 +73,13 @@
     border-radius: 50%;
     top: 50%;
     left: 0%;
+}
+@-webkit-keyframes xoay{
+    0%{
+        transform: rotate(0deg);
+         
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
