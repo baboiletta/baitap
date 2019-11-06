@@ -1,0 +1,62 @@
+*{}
+
+.d {
+    width: 30px;
+    position: absolute;
+    background: rebeccapurple;
+    animation : load 1s 2s linear infinite;
+    transition: ease-in-out;
+    bottom: 0;
+    /* transform: translate(500px); */
+}
+
+.d._5 {
+    height: 340px;
+}
+
+.d._4 {
+    height: 200px;
+    animation-delay: 0.5s;
+}
+
+.d._3 {
+    height: 275px;
+    animation-delay: 1.8s;
+}
+
+.d._2 {
+    height: 190px;
+    animation-delay: 0.7s;
+}
+
+
+.d._1 {
+    height: 250px;
+    animation-delay: 0.5s;
+}
+
+li.cot {margin: 5px;width: 30px;height: 300px;overflow: hidden;list-style: none;display: inline-block;position: relative;}
+
+
+
+.music {
+    /* position: relative; */
+    width: 500px;
+    height: 500px;
+}
+@-webkit-keyframes load {
+    0%{
+        transform: translateY(200px);
+      
+        
+    }
+
+    50%{
+        transform: translateY(0px);
+       
+    }
+    100%{
+        transform: translateY(200px);
+        
+    }
+}
